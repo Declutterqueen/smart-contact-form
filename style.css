@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.smart-form {
+  width: 400px;
+  background: #fff;
+  padding: 25px;
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 96%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input.valid, textarea.valid {
+  border-color: green;
+}
+
+input.invalid, textarea.invalid {
+  border-color: red;
+}
+
+small.helper {
+  display: block;
+  font-size: 12px;
+  margin-top: 3px;
+  color: red;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+/* Shake animation for error */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+input.invalid, textarea.invalid {
+  animation: shake 0.3s;
+}
+
+/* Success animation */
+.success {
+  color: rgb(233, 31, 199);
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.success.show {
+  opacity: 1;
+  transform: scale(1);
+}
