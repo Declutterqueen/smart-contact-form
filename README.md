@@ -76,4 +76,5 @@ Frontend Web Developer
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/smart-contact-form.git
+git clone https://github.com/Declutterqueen/smart-contact-form.git
+
