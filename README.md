@@ -27,16 +27,16 @@ The form is also **Netlify-ready**, so submissions can be collected without a ba
 ## Screenshots
 
 1. **Form Full Layout**  
-   #![Form Layout](Pictures/form-layout.png)
+   #![Form Layout](form-layout.jpg)
 
 3. **Error State**  
- ![Error Shake](Pictures/error-shake.png)
+ ![Error Shake](error-shake.jpg)
 
 4. **Success Pop-Up Animation**  
-   ![Success Animation](Pictures/success-animation.png)  
+   ![Success Animation](success-animation.jpg)  
 
 5. **Mobile View**  
-   ![Mobile Responsive](Pictures/mobile-view.png)  
+   ![Mobile Responsive](mobile-view.jpg)  
 
 
 ## How to Run Locally
